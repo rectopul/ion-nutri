@@ -220,7 +220,7 @@
                         while ($query->have_posts()) {
                             $query->the_post();
                             // Exibir o título do post e a imagem destacada (thumbnail) se houver
-                            echo '<div class="col-12 col-md-3 pb-4"><article class="p-4">';
+                            echo '<div class="col-12 col-md-6 col-lg-3 pb-4"><article class="p-4">';
                                 if (has_post_thumbnail()) {
                                     the_post_thumbnail('full');
                                 }

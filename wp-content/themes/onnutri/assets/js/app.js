@@ -41,7 +41,7 @@ if(btnOpenMenu) {
       autoplaySpeed: 3000,
       responsive: [
         {
-          breakpoint: 600,
+          breakpoint: 890,
           settings: {
             rows: 2,
             slidesToShow: 2,
@@ -51,7 +51,7 @@ if(btnOpenMenu) {
       ]
     });
 
-    if (window.matchMedia("(max-width: 650px)").matches) {
+    if (window.matchMedia("(max-width: 890px)").matches) {
       /* a viewport tem pelo menos 400 pixels de largura */
       var topBarSlick = $(".top_bar .container").slick({
         infinite: true,
