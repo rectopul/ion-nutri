@@ -1,0 +1,82 @@
+.slides-container
+    .slides
+        height 764px
+        width 100%
+        max-width 100%
+        overflow hidden
+        padding 0
+        position relative
+
+        @media screen and (max-width 568px)
+            height 150px
+
+
+        .slick-dots
+            display flex
+            list-style: none
+            position absolute
+            bottom 5px
+            left 50%
+            transform translateX(-50%)
+
+            li
+                margin 0 6px
+
+                &.slick-active
+                    button
+                        background-color #F87544
+                button
+                    width 10px
+                    height 10px
+                    padding 0
+                    border 1.5px solid #F87544
+                    background-color transparent
+                    font-size 0
+                    transform rotate(45deg)
+    .container
+        footer
+            display flex
+
+            .wpp-button
+                display inline-flex
+                padding 16px 40px
+                justify-content center
+                align-items center
+                gap 10px
+                border-radius 2px
+                background var(--white, #FFF)
+                text-decoration none
+                margin-left 24px
+                border 1px solid #F87544
+
+                span
+                    background: var(--laranja-brand-degrad, linear-gradient(135deg, #F87544 0%, #F54B0C 100%));
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-decoration none
+
+    a
+        &.kit
+            display flex
+            padding 16px 40px
+            max-width 170px
+            color #fff
+            text-decoration none
+            font-family var(--default-font)
+            font-size 16px
+            font-weight 400
+            justify-content center
+            align-items center
+            border-radius: 3px
+            background: var(--laranja-brand-degrad);
+    .slick-arrow
+        display none !important
+    .slick-slide
+        height 764px
+
+        @media screen and (max-width 568px)
+            height 150px
+            background-size cover
+
+        .container
+            display none

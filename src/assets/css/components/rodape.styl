@@ -1,0 +1,156 @@
+.footer-bar
+    background: var(--mint-green-gradiant, linear-gradient(132deg, #7B999C 0%, #315C70 100%));
+    height 53px
+    justify-content center
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    color white
+    font-family: var(--thirty-font)
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top 30px
+
+    div
+        height 53px
+
+    span
+        margin-right 10px
+
+        a
+            width 25px
+            height 25px
+            border-radius 25px
+            display flex
+            justify-content center
+            align-items center
+            text-decoration none
+            background white
+            color #315C70
+            padding 5px
+
+            &:hover
+                color #f87544
+
+.rodape
+    background var(--bg-shade, #EEEFFB)
+    position relative
+
+    figure
+        width 250px
+
+        img
+            width 100%
+            height auto
+
+    .blocks
+        @media screen and (max-width 566px)
+            flex-direction column
+        > div
+            &:not(:last-child)
+                margin-right 90px
+
+            
+
+    h3
+        color: #000;
+        font-family: var(--second-font)
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom 40px
+
+    .white-link
+        display: inline-flex;
+        padding: 9px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 3px;
+        background: var(--white, #FFF);
+        color #F87544
+        text-decoration none
+        border 1px solid #F87544
+        max-width 345px
+
+        &:hover
+            background #F87544
+            color white
+
+        span
+            background: var(--laranja-brand-degrad, linear-gradient(135deg, #F87544 0%, #F54B0C 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: var(--default-font)
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+    p 
+        color: var(--sub-texto-color, #8A8FB9);
+        font-size: 16px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        max-width 240px
+
+    ul
+        color: var(--sub-texto-color, #8A8FB9);
+        font-family: var(--default-font)
+        font-size: 16px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        list-style none
+        padding 0
+        
+        li
+            margin-bottom 15px
+
+        a
+            color: var(--sub-texto-color, #8A8FB9);
+            text-decoration none
+
+            &:hover
+                color #f87544
+
+    &:before
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        top -30px
+        right 50px
+        position absolute
+    &:after
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        bottom 0px
+        left 50px
+        position absolute
+
+    @media screen and (max-width 568px)
+        &:after, &:before
+            width 80px
+            height 80px
+            bottom 0
+
+        .default_link
+            max-width 100%
+            padding 16px 15px
+            
+        &:before
+            right 10px
+        &:after
+            left -10px
+            bottom 25px

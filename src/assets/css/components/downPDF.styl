@@ -1,0 +1,112 @@
+.downPDF
+    position relative
+    &:before
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        top -30px
+        right 50px
+        position absolute
+    &:after
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        bottom -30px
+        left 50px
+        position absolute
+
+    @media screen and (max-width 568px)
+        &:after, &:before
+            width 80px
+            height 80px
+            bottom 0
+
+        .default_link
+            max-width 100%
+            padding 16px 15px
+            
+        &:before
+            right 10px
+        &:after
+            left 10px
+            bottom -40px
+
+    h4
+        color var(--texto, #315C70);
+        font-family var(--default-font)
+        font-size 30px
+        font-style normal
+        font-weight 300
+        line-height normal
+
+        span
+            color var(--laranja-brand, #F54B0C)
+            font-family var(--default-font)
+            font-size 30px
+            font-style normal
+            font-weight 300
+            line-height normal
+
+    p
+        color var(--sub-texto-color, #8A8FB9)
+        font-family var(--default-font)
+        font-size 16px
+        font-style normal
+        font-weight 300
+        line-height normal
+
+    article
+        display flex
+        align-items center
+        margin-top 30px
+
+        @media screen and (max-width 566px)
+            flex-direction column
+
+            span
+                margin 10px 0
+
+        button
+            height 40px
+            display flex
+            justify-content center
+            align-items center
+
+        span
+            flex 0 0 auto
+            height 40px
+            margin-right 10px
+
+            input
+                width 100%
+                height 100%
+                border-radius 3px
+                background var(--white, #FFF)
+                border 1px solid #F87544
+                color #F87544
+                padding 0 10px
+                line-height: 1
+
+                &::placeholder
+                    color #F87544
+                
+
+    figure
+        background var(--mint-green-gradiant, linear-gradient(132deg, #7B999C 0%, #315C70 100%))
+        width: 472px
+        height: 472px
+        flex-shrink: 0
+        overflow hidden
+        border-radius 472px
+
+        @media screen and (max-width 568px)
+            width 300px
+            height 300px
+        
+        img
+            width 100%
+            height auto

@@ -1,0 +1,193 @@
+.how-is-container
+    position relative
+
+    &:before
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        top -30px
+        right 50px
+        position absolute
+    &:after
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        bottom -30px
+        left 50px
+        position absolute
+
+    @media screen and (max-width 568px)
+        &:after, &:before
+            width 80px
+            height 80px
+            bottom 0
+
+        .default_link
+            max-width 100%
+            padding 16px 15px
+            
+        &:before
+            right 10px
+        &:after
+            left 10px
+            bottom -40px
+
+.why_take_test
+    background: var(--liner-bg);
+    position relative
+
+    &:before
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        top -30px
+        right 50px
+        position absolute
+    &:after
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        bottom -30px
+        left 50px
+        position absolute
+
+    @media screen and (max-width 568px)
+        &:after, &:before
+            width 80px
+            height 80px
+            bottom 0
+
+        .default_link
+            max-width 100%
+            padding 16px 15px
+            
+        &:before
+            right 10px
+        &:after
+            left 10px
+
+    small
+        color: var(--sub-texto-color)
+        font-family var(--default-font)
+        font-size: 16px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+
+    h2
+        color var(--texto)
+        font-family: var(--default-font)
+        font-size 30px
+        font-style normal
+        font-weight 300
+        line-height normal
+
+    p
+        color var(--sub-texto-color)
+        font-family var(--default-font)
+        font-size 16px
+        font-style normal
+        font-weight 300
+        line-height normal
+
+    figure
+        width 420px
+        height 420px
+        border-radius 100%
+
+        @media screen and (max-width 568px)
+            width 320px
+            height 320px
+
+        img
+            width 100%
+            height auto
+.test_section_container
+    position relative
+
+    &:before
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        top -30px
+        right 50px
+        position absolute
+    &:after
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        bottom -110px
+        left 50px
+        position absolute
+        z-index: 9
+
+    @media screen and (max-width 568px)
+        &:after, &:before
+            width 80px
+            height 80px
+            bottom 0
+
+        .default_link
+            max-width 100%
+            padding 16px 15px
+            
+        &:before
+            right 10px
+        &:after
+            left 0
+            bottom -35px
+
+    
+.test_section
+    small
+        color: var(--sub-texto-color)
+        font-family var(--default-font)
+        font-size: 16px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+
+    h2
+        color var(--texto)
+        font-family: var(--default-font)
+        font-size 30px
+        font-style normal
+        font-weight 300
+        line-height normal
+
+    p
+        color var(--sub-texto-color)
+        font-family var(--default-font)
+        font-size 16px
+        font-style normal
+        font-weight 300
+        line-height normal
+
+    figure
+        width 420px
+        height 420px
+        border-radius 100%
+        overflow hidden
+
+        max-width 100%
+
+        @media screen and (max-width 568px)
+            width 320px
+            height 320px
+            margin 0 auto
+
+        img
+            width 100%
+            height auto

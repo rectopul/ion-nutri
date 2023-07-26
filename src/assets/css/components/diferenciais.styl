@@ -1,0 +1,106 @@
+.diferenciais
+    font-family var(--default-font)
+    background var(--liner-bg, linear-gradient(135deg, #F3F9FF 0%, #F1F0FF 100%))
+    position relative
+
+    &:before
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        top 40px
+        right 50px
+        position absolute
+    &:after
+        content ''
+        width 200px
+        height 200px
+        background-image url(../img/mark.png)
+        background-size cover
+        bottom 40px
+        left 50px
+        position absolute
+
+    @media screen and (max-width 568px)
+        &:after, &:before
+            width 80px
+            height 80px
+            bottom 0
+
+        .default_link
+            max-width 100%
+            padding 16px 15px
+            
+        &:before
+            right 10px
+        &:after
+            left 10px
+            bottom -40px
+
+    h4
+        background var(--mint-green-gradiant, linear-gradient(132deg, #7B999C 0%, #315C70 100%))
+        background-clip text
+        -webkit-background-clip text
+        -webkit-text-fill-color transparent
+        text-align center
+        font-size 28px
+        font-style normal
+        font-weight 700
+        line-height normal
+    
+    h3
+        background var(--laranja-brand-degrad)
+        background-clip text
+        -webkit-background-clip text
+        -webkit-text-fill-color transparent
+        font-size 30px
+        font-style normal
+        font-weight 500
+        line-height normal
+
+    article
+        background white
+        border-radius 5px
+        height 100%
+
+        h2
+            color var(--texto, #315C70)
+            font-family var(--default-font)
+            font-size 18px
+            font-style normal
+            font-weight 400
+            line-height normal
+            margin-bottom 20px
+            margin-top 20px 
+
+        a
+            
+            /* button text */
+            font-family var(--default-font)
+            font-size 16px
+            font-style normal
+            font-weight 400
+            line-height normal
+            background var(--laranja-brand-degrad, linear-gradient(135deg, #F87544 0%, #F54B0C 100%))
+            background-clip text
+            -webkit-background-clip text
+            -webkit-text-fill-color transparent
+
+            &:hover
+                text-decoration underline !important
+
+        p
+            color: var(--sub-texto-color, #8A8FB9)
+            /* button text */
+            font-family: var(--default-font)
+            font-size: 16px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+
+        figure
+            width 100%
+        img
+            width 100%
+            height auto

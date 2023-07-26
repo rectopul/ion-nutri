@@ -1,0 +1,45 @@
+a:focus,
+a:hover, 
+.portfolio-cat a:hover, 
+.footer -menu li a:hover
+    text-decoration none !important
+
+:root
+    --default_bg: #315C70
+    --default_text_color: #8A8FB9
+    --default_bg_text: #000
+    --default_text_shadow #F2F2F2
+    --default-font: 'Open Sans', sans-serif
+    --second-font: 'Josefin Sans', sans-serif
+    --thirty-font: 'Lato', sans-serif
+    --laranja-brand-degrad: linear-gradient(135deg, #F87544 0%, #F54B0C 100%)
+    --sub-texto-color: #8A8FB9
+    --texto: #315C70
+    --liner-bg: linear-gradient(135deg, #F3F9FF 0%, #F1F0FF 100%)
+    --laranja-brand: #F54B0C
+    --paragraph-color: #AFADB5
+
+.default_link
+    padding 16px 40px
+    color #fff
+    text-decoration none
+    font-family var(--default-font)
+    font-size 16px
+    font-weight 400
+    justify-content center
+    align-items center
+    border-radius: 3px
+    background: var(--laranja-brand-degrad);
+    border 1px solid #F87544
+
+    @media screen and (max-width 568px)
+        display inline-flex
+        font-size 14px
+
+    &:hover
+        background white
+        color #F87544
+
+body
+    font-size 16px
+    font-family var(--default-font)

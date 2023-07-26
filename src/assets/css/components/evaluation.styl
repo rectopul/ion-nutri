@@ -1,0 +1,95 @@
+.evaluation
+    background var(--liner-bg)
+
+    .comments_list
+        display flex
+        align-items center
+        justify-content space-between
+        flex-wrap wrap
+
+        > div
+            flex 0 0 calc(33.333333333% - 30px)
+            margin 0 15px
+            background-color #fff
+            border-radius 5px
+            box-shadow 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+
+            @media screen and (max-width 568px)
+                flex 0 0 100%
+                margin 10px 0
+
+            p
+            // Font
+                color var(--paragraph-color)
+                font-family var(--default-font)
+                font-size 18px;
+                font-style normal
+                font-weight 500
+                line-height 180% /* 32.4px */
+
+            footer
+                display flex
+                align-items center
+
+                figure
+                    margin 0
+                    width 50px
+                    height 50px
+                    border-radius 50px
+                    overflow hidden
+
+                    img
+                        width 100%
+                        height auto
+
+                span
+                    color var(--text-color, #252525);
+                    font-family var(--default-font)
+                    font-size 20px
+                    font-style normal
+                    font-weight 700
+                    line-height 130% /* 26px */
+                    margin-left 10px
+                    display flex
+                    align-items center
+
+                .rating
+                    flex 1
+                    text-align right
+                    justify-content flex-end
+
+                    svg
+                        margin-right 10px
+                        width 24px
+                        height 24px
+
+
+    small
+        color var(--paragraph-color)
+        text-align center
+        font-family var(--default-font)
+        font-size 18px
+        font-style normal
+        font-weight 400
+        line-height 180% /* 32.4px */
+        max-width 600px
+        display flex
+        margin 0 auto
+
+    h2
+        color var(--laranja-brand)
+        font-family var(--default-font)
+        font-size 44px
+        font-style normal
+        font-weight 300
+        line-height 130% /* 57.2px */
+
+    .subtitle
+        color: var(--texto);
+        font-family var(--default-font)
+        font-size 28px
+        font-style normal
+        display flex
+        justify-content center
+        font-weight 700
+        line-height normal
