@@ -706,36 +706,36 @@ body{font-size:16px;font-family:var(--default-font)}
 /* line 101 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .why_take_test figure{width:420px;height:420px;border-radius:100%}@media screen and (max-width:568px){
 /* line 106 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
-.why_take_test figure{width:320px;height:320px}}
-/* line 110 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+.why_take_test figure{width:320px;height:320px;margin:0;margin-top:30px}}
+/* line 112 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .why_take_test figure img{width:100%;height:auto}
-/* line 113 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 115 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section_container{position:relative}
-/* line 116 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 118 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section_container:before{content:'';width:200px;height:200px;background-image:url("../img/mark.png");background-size:cover;top:-30px;right:50px;position:absolute}
-/* line 125 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 127 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section_container:after{content:'';width:200px;height:200px;background-image:url("../img/mark.png");background-size:cover;bottom:-110px;left:50px;position:absolute;z-index:9}@media screen and (max-width:568px){
-/* line 137 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 139 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section_container:after,.test_section_container:before{width:80px;height:80px;bottom:0}
-/* line 142 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 144 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section_container .default_link{max-width:100%;padding:16px 15px}
-/* line 146 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
-.test_section_container:before{right:10px}
 /* line 148 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+.test_section_container:before{right:10px}
+/* line 150 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section_container:after{left:0;bottom:-35px}}
-/* line 153 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 155 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 
-/* line 154 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 156 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section small{color:var(--sub-texto-color);font-family:var(--default-font);font-size:16px;font-style:normal;font-weight:300;line-height:normal}
-/* line 162 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 164 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section h2{color:var(--texto);font-family:var(--default-font);font-size:30px;font-style:normal;font-weight:300;line-height:normal}
-/* line 170 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 172 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section p{color:var(--sub-texto-color);font-family:var(--default-font);font-size:16px;font-style:normal;font-weight:300;line-height:normal}
-/* line 178 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 180 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section figure{width:420px;height:420px;border-radius:100%;overflow:hidden;max-width:100%}@media screen and (max-width:568px){
-/* line 186 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 188 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section figure{width:320px;height:320px;margin:0 auto}}
-/* line 191 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
+/* line 193 : /home/rogerio/wordpress/onnutri/src/assets/css/components/testSection.styl */
 .test_section figure img{width:100%;height:auto}
 
 /* line 297 : /home/rogerio/wordpress/onnutri/src/assets/css/core/default.styl */
